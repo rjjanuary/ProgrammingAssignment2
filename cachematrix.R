@@ -5,8 +5,8 @@
 ## calculated by the cacheSolve function
 
 makeCacheMatrix <- function(x = matrix()) {
-  internal_matrix <<- x
-  cached_inv <<- NULL
+  internal_matrix <- x
+  cached_inv <- NULL
 
   list(
     get = function() {
